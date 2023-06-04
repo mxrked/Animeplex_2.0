@@ -34,8 +34,8 @@ SETTING UP THE PROGRAM
       - User_ID: int - (In the columns properties, make sure that Identity Specification is set to Yes, 1, 1)
       - User_Email - nvarchar(MAX) - ALLOW_NULLS
       - User_Password - nvarchar(MAX) - ALLOW_NULLS
-      - User_Watched_Array - nvarchar(MAX) - ALLOW_NULLS
-      - User_Favorites_Array - nvarchar(MAX) - ALLOW_NULLS                     
+      - User_Watched_Anime - nvarchar(MAX) - ALLOW_NULLS
+      - User_Favorites_Anime - nvarchar(MAX) - ALLOW_NULLS                     
       - User_Cart - nvarchar(MAX) - ALLOW_NULLS
                                                                                              
       Now save the table as "Users"
